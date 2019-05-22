@@ -84,6 +84,19 @@ void demo_fgets(){
 
 // Important: char *cards = "JQK"; VS char cards[] = "JQK" -- [
 // A variable that points to a string literal can’t be used to change the contents of the string]
+// When the computer loads the program into memory,
+// it puts all of the constant values—like the string literal “JQK”—into the constant memory block.
+// I think "JQK" is called a string constant, and it should be in the [?read-only static part of the memory].
+// ^^Important: picture on the bottom of HeadFirstC[74]
+
+// There’s nothing wrong with setting a pointer to a string literal—the problems only happen when you try to
+// modify a string literal. Instead, if you want to set a pointer to a literal, always
+// make sure you use the const keyword: That way, if the compiler sees some code that tries to modify the string,
+// it will give you a compile error: assignment of read-only location
+void string_literal(){
+    const char *s = "some String";
+    // s[0] = 'S'; [uncomment this line and you will see [Read-Only variable is not assignable]
+}
 
 
 
