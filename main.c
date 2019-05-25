@@ -1,5 +1,8 @@
 #include <stdio.h>
+#include "string.h"
 #include "pointer1.h"
+#include "string1.h"
+
 
 int main() {
 //    int latitude = 32;
@@ -7,9 +10,9 @@ int main() {
 //    go_south_east(&latitude, &longitude);
 //    printf("Avast! Now at: [%i, %i]\n", latitude, longitude);
 
-    char quote[] = "Cookies make you fat";
-    char s[] = "How big is it?";
-    char *t = s;
+//    char quote[] = "Cookies make you fat";
+//    char s[] = "How big is it?";
+//    char *t = s;
 
     // Question and Important notes here: HeadFirstC[59]the third paragraph: I don't know what "the
     // compiler simply plugs in the address of the start of the array." means.
@@ -20,19 +23,32 @@ int main() {
     // exist in the final executable. That’s OK because the array variable will never be needed to point anywhere else.]
 
 
-    printf("the size of string s is: %i\n", sizeof(s));
-    printf("the size of the string s's pointer t is: %i\n", sizeof(t));
+//    printf("the size of string s is: %i\n", sizeof(s));
+//    printf("the size of the string s's pointer t is: %i\n", sizeof(t));
+//
+//    printf("The quote string is stored at: %p\n", quote);
+//    fortune_cookie(quote);
+//    test1();
+//
+//    char *msg_from_amy = "Don't call me";
+//    skip(msg_from_amy);
+//
+//    equivalent();
+//
+//    data_entry();
 
-    printf("The quote string is stored at: %p\n", quote);
-    fortune_cookie(quote);
-    test1();
+    //array_of_arrays();
 
-    char *msg_from_amy = "Don't call me";
-    skip(msg_from_amy);
+    char *s = "ABC";
+    print_reverse(s);
 
-    equivalent();
 
-    data_entry();
+
+
+
+
+
+
 
     return 0;
 }

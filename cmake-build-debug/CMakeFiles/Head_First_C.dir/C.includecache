@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../Chapter2.5_String_Theory/string1.h
+stdio.h
+-
+string.h
+../Chapter2.5_String_Theory/string.h
+
 ../Chapter2_Memory_Pointers/pointer1.h
 stdio.h
 ../Chapter2_Memory_Pointers/stdio.h
@@ -13,6 +19,10 @@ stdio.h
 /Users/smallapple/CLionProjects/Head-First-C/main.c
 stdio.h
 -
+string.h
+/Users/smallapple/CLionProjects/Head-First-C/string.h
 pointer1.h
 /Users/smallapple/CLionProjects/Head-First-C/pointer1.h
+string1.h
+/Users/smallapple/CLionProjects/Head-First-C/string1.h
 

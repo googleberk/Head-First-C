@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk 
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/smallapple/CLionProjects/Head-First-C/Chapter2_Memory_Pointers 
+C_INCLUDES = -I/Users/smallapple/CLionProjects/Head-First-C/Chapter2_Memory_Pointers -I/Users/smallapple/CLionProjects/Head-First-C/Chapter2.5_String_Theory 
 

@@ -11,6 +11,7 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Chapter2_Memory_Pointers"
+  "../Chapter2.5_String_Theory"
   )
 
 # Targets to which this target links.
