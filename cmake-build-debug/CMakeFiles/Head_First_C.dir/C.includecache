@@ -16,6 +16,16 @@ string.h
 stdio.h
 ../Chapter2_Memory_Pointers/stdio.h
 
+../Chapter3_Small_Tools/tool.h
+stdio.h
+../Chapter3_Small_Tools/stdio.h
+stdlib.h
+-
+string.h
+-
+unistd.h
+../Chapter3_Small_Tools/unistd.h
+
 /Users/smallapple/CLionProjects/Head-First-C/main.c
 stdio.h
 -
@@ -25,4 +35,6 @@ pointer1.h
 /Users/smallapple/CLionProjects/Head-First-C/pointer1.h
 string1.h
 /Users/smallapple/CLionProjects/Head-First-C/string1.h
+tool.h
+/Users/smallapple/CLionProjects/Head-First-C/tool.h
 

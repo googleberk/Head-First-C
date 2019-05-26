@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Head_First_C1
+
+# Build rule for target.
+Head_First_C1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Head_First_C1
+.PHONY : Head_First_C1
+
+# fast build rule for target.
+Head_First_C1/fast:
+	$(MAKE) -f CMakeFiles/Head_First_C1.dir/build.make CMakeFiles/Head_First_C1.dir/build
+.PHONY : Head_First_C1/fast
+
+#=============================================================================
 # Target rules for targets named Head_First_C
 
 # Build rule for target.
@@ -150,6 +163,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Head_First_C.dir/build.make CMakeFiles/Head_First_C.dir/main.c.s
 .PHONY : main.c.s
 
+main1.o: main1.c.o
+
+.PHONY : main1.o
+
+# target to build an object file
+main1.c.o:
+	$(MAKE) -f CMakeFiles/Head_First_C1.dir/build.make CMakeFiles/Head_First_C1.dir/main1.c.o
+.PHONY : main1.c.o
+
+main1.i: main1.c.i
+
+.PHONY : main1.i
+
+# target to preprocess a source file
+main1.c.i:
+	$(MAKE) -f CMakeFiles/Head_First_C1.dir/build.make CMakeFiles/Head_First_C1.dir/main1.c.i
+.PHONY : main1.c.i
+
+main1.s: main1.c.s
+
+.PHONY : main1.s
+
+# target to generate assembly for a file
+main1.c.s:
+	$(MAKE) -f CMakeFiles/Head_First_C1.dir/build.make CMakeFiles/Head_First_C1.dir/main1.c.s
+.PHONY : main1.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... Head_First_C1"
 	@echo "... Head_First_C"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main1.o"
+	@echo "... main1.i"
+	@echo "... main1.s"
 .PHONY : help
 
 

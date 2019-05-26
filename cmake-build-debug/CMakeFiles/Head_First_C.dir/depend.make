@@ -3,5 +3,6 @@
 
 CMakeFiles/Head_First_C.dir/main.c.o: ../Chapter2.5_String_Theory/string1.h
 CMakeFiles/Head_First_C.dir/main.c.o: ../Chapter2_Memory_Pointers/pointer1.h
+CMakeFiles/Head_First_C.dir/main.c.o: ../Chapter3_Small_Tools/tool.h
 CMakeFiles/Head_First_C.dir/main.c.o: ../main.c
 

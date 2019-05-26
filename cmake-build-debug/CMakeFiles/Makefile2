@@ -65,6 +65,43 @@ CMAKE_SOURCE_DIR = /Users/smallapple/CLionProjects/Head-First-C
 CMAKE_BINARY_DIR = /Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/Head_First_C1.dir
+
+# All Build rule for target.
+CMakeFiles/Head_First_C1.dir/all:
+	$(MAKE) -f CMakeFiles/Head_First_C1.dir/build.make CMakeFiles/Head_First_C1.dir/depend
+	$(MAKE) -f CMakeFiles/Head_First_C1.dir/build.make CMakeFiles/Head_First_C1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Head_First_C1"
+.PHONY : CMakeFiles/Head_First_C1.dir/all
+
+# Include target in all.
+all: CMakeFiles/Head_First_C1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Head_First_C1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Head_First_C1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Head_First_C1.dir/rule
+
+# Convenience name for target.
+Head_First_C1: CMakeFiles/Head_First_C1.dir/rule
+
+.PHONY : Head_First_C1
+
+# clean rule for target.
+CMakeFiles/Head_First_C1.dir/clean:
+	$(MAKE) -f CMakeFiles/Head_First_C1.dir/build.make CMakeFiles/Head_First_C1.dir/clean
+.PHONY : CMakeFiles/Head_First_C1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Head_First_C1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Head_First_C.dir
 
 # All Build rule for target.

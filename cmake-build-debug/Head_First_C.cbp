@@ -37,6 +37,52 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Head_First_C1">
+				<Option output="/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Head_First_C1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter2_Memory_Pointers"/>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter2.5_String_Theory"/>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter3_Small_Tools"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Head_First_C1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Head_First_C1/fast">
+				<Option output="/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Head_First_C1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter2_Memory_Pointers"/>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter2.5_String_Theory"/>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter3_Small_Tools"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Head_First_C1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Head_First_C">
 				<Option output="/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug/Head_First_C" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/smallapple/CLionProjects/Head-First-C/cmake-build-debug"/>
@@ -46,6 +92,7 @@
 				<Compiler>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter2_Memory_Pointers"/>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter2.5_String_Theory"/>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter3_Small_Tools"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -68,6 +115,7 @@
 				<Compiler>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter2_Memory_Pointers"/>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter2.5_String_Theory"/>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter3_Small_Tools"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -84,6 +132,9 @@
 		</Build>
 		<Unit filename="/Users/smallapple/CLionProjects/Head-First-C/main.c">
 			<Option target="Head_First_C"/>
+		</Unit>
+		<Unit filename="/Users/smallapple/CLionProjects/Head-First-C/main1.c">
+			<Option target="Head_First_C1"/>
 		</Unit>
 		<Unit filename="/Users/smallapple/CLionProjects/Head-First-C/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
