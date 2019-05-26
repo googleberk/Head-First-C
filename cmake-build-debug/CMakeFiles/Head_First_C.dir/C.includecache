@@ -26,6 +26,14 @@ string.h
 unistd.h
 ../Chapter3_Small_Tools/unistd.h
 
+../Chapter4_Break_Build/break.h
+stdio.h
+../Chapter4_Break_Build/stdio.h
+limits.h
+../Chapter4_Break_Build/limits.h
+float.h
+../Chapter4_Break_Build/float.h
+
 /Users/smallapple/CLionProjects/Head-First-C/main.c
 stdio.h
 -
@@ -37,4 +45,6 @@ string1.h
 /Users/smallapple/CLionProjects/Head-First-C/string1.h
 tool.h
 /Users/smallapple/CLionProjects/Head-First-C/tool.h
+break.h
+/Users/smallapple/CLionProjects/Head-First-C/break.h
 

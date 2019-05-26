@@ -8,5 +8,6 @@ add_executable(Head_First_C1 main1.c)
 include_directories(Chapter2_Memory_Pointers)
 include_directories(Chapter2.5_String_Theory)
 include_directories(Chapter3_Small_Tools)
+include_directories(Chapter4_Break_Build)
 
 

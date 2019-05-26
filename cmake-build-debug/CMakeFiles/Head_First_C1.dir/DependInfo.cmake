@@ -13,6 +13,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Chapter2_Memory_Pointers"
   "../Chapter2.5_String_Theory"
   "../Chapter3_Small_Tools"
+  "../Chapter4_Break_Build"
   )
 
 # Targets to which this target links.
