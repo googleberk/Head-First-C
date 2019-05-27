@@ -34,6 +34,10 @@ limits.h
 float.h
 ../Chapter4_Break_Build/float.h
 
+../Chapter5_Structures/structure.h
+stdio.h
+../Chapter5_Structures/stdio.h
+
 /Users/smallapple/CLionProjects/Head-First-C/main.c
 stdio.h
 -
@@ -47,4 +51,6 @@ tool.h
 /Users/smallapple/CLionProjects/Head-First-C/tool.h
 break.h
 /Users/smallapple/CLionProjects/Head-First-C/break.h
+structure.h
+/Users/smallapple/CLionProjects/Head-First-C/structure.h
 

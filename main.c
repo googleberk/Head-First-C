@@ -4,6 +4,7 @@
 #include "string1.h"
 #include "tool.h"
 #include "break.h"
+#include "structure.h"
 
 
 int main(int argc, char *argv[]) {
@@ -50,6 +51,20 @@ int main(int argc, char *argv[]) {
     //order_pizza(argc, argv);
 
     // Chapter4_Function_Calls below:
-    data();
+    //data();
+
+    // Chapter5_Function_Calls below:
+//    struct fish snappy = {"Snappy", "Piranha", 69, 4};
+//    catalog(snappy);
+//    pointer_struct(&snappy);
+//    printf("My age is now: %i\n", snappy.age);
+
+    // in java this is different?(a can change to 4?) I am confused, will take a look at it later.
+//    int a = 3;
+//    test_int(a);
+//    printf("a is now: %i\n", a);
+
+    fruit();
+
     return 0;
 }

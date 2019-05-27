@@ -9,5 +9,6 @@ include_directories(Chapter2_Memory_Pointers)
 include_directories(Chapter2.5_String_Theory)
 include_directories(Chapter3_Small_Tools)
 include_directories(Chapter4_Break_Build)
+include_directories(Chapter5_Structures)
 
 
