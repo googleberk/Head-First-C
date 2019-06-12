@@ -15,6 +15,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Chapter3_Small_Tools"
   "../Chapter4_Break_Build"
   "../Chapter5_Structures"
+  "../Chapter6_Building_Bridges"
   )
 
 # Targets to which this target links.

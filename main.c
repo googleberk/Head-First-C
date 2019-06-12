@@ -5,6 +5,7 @@
 #include "tool.h"
 #include "break.h"
 #include "structure.h"
+#include "bridge.h"
 
 
 int main(int argc, char *argv[]) {
@@ -64,7 +65,62 @@ int main(int argc, char *argv[]) {
 //    test_int(a);
 //    printf("a is now: %i\n", a);
 
-    fruit();
+    //fruit();
+
+    //Chapter6_Function_Calls below:
+
+
+//    island amity = {"Amity", "09:00", "17:00", NULL};
+//    island craggy = {"Craggy", "09:00", "17:00", NULL};
+//    island isla_nublar = {"Isla Nublar", "09:00", "17:00", NULL};
+//    island shutter = {"Shutter", "09:00", "17:00", NULL};
+//
+//    amity.next = &craggy;
+//    craggy.next = &isla_nublar;
+//    isla_nublar.next = &shutter;
+
+    // displayA(&amity);
+    // char name[5];
+    // if you write the following code, you will get an error:
+    // [definition of variable with array type needs an explicit size of an initializer]
+    // and there are two ways you can do: [first, is just put the size in the square bracket;
+    // second, you have to set this array immediately to a value, such as
+    // [code: char pig[] = "JQK"]
+    // char pig[];
+    // I say the following point a second time because it is important. see TB[74]
+    // if you see [void stack_deck(char cards[]), then 'cards' is not an array, it
+    // actually is a char pointer(the address of an array named cards), so void stack_deck(char cards[]) is
+    // the same as void stack_deck(char *cards). also see TB[59]
+
+    // the following are some points about the sizeof() function:
+    // first, sizeof(a pointer) will return the value 4 or 8, because that's the size
+    // of pointers on 32- and 64-bit systems.
+    // But, if you call sizeof on an array variable, you will actually get how big the
+    // array is in memory.
+    // char s[] = "How big is it?";
+    // char *t = s;
+    // when you create a pointer variable, the machine will allocate 4 or 8 bytes of space in the stack to store it.
+    // But, when you create an array, such as char s[] = "How big is it?", the computer
+    // will allocate space on the heap to store the array(this array is a copy of the string literals
+    // "How big is it?" created on the read-only memory on the static/global part of the memory
+    // BUT it won't allocate any memory to store the array variable, which is s itself.
+    // [The compiler simply plugs in the address of the start of the array]
+    // So because array variables don’t have allocated storage, it means you can’t point them at anything else.
+    // [code: s = t] gives a compile error
+
+
+//    fgets(name, 5, stdin);
+//    island *p_island0 = create(name);
+//    displayA(p_island0);
+//
+//    fgets(name, 5, stdin);
+//    island *p_island1 = create(name);
+//    displayA(p_island0);
+//    displayA(p_island1);
+
+    // below are calls for Chapter7:
+
 
     return 0;
+
 }

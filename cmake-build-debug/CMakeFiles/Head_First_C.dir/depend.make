@@ -6,5 +6,6 @@ CMakeFiles/Head_First_C.dir/main.c.o: ../Chapter2_Memory_Pointers/pointer1.h
 CMakeFiles/Head_First_C.dir/main.c.o: ../Chapter3_Small_Tools/tool.h
 CMakeFiles/Head_First_C.dir/main.c.o: ../Chapter4_Break_Build/break.h
 CMakeFiles/Head_First_C.dir/main.c.o: ../Chapter5_Structures/structure.h
+CMakeFiles/Head_First_C.dir/main.c.o: ../Chapter6_Building_Bridges/bridge.h
 CMakeFiles/Head_First_C.dir/main.c.o: ../main.c
 

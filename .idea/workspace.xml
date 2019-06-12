@@ -13,13 +13,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="228f647c-f67f-4d76-85dc-f4d1eea58ed2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter5_Structures/structure.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6_Building_Bridges/bridge.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C.dir/main.c.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C1.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Head_First_C1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Head_First_C" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Head_First_C" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Head_First_C.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Head_First_C.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
@@ -39,17 +44,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="286">
+              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -57,11 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter5_Structures/structure.h">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter6_Building_Bridges/bridge.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="278">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,17 +95,18 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/gpsapp/gpsdata.csv" />
         <option value="$PROJECT_DIR$/Chapter3_Small_Tools/tool.h" />
         <option value="$PROJECT_DIR$/Chapter4_Break_Build/break.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/Chapter5_Structures/structure.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Chapter6_Building_Bridges/bridge.h" />
+        <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="586" />
-    <option name="y" value="23" />
-    <option name="width" value="803" />
-    <option name="height" value="670" />
+    <option name="x" value="668" />
+    <option name="y" value="68" />
+    <option name="width" value="733" />
+    <option name="height" value="690" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -111,11 +120,6 @@
             <path>
               <item name="Head_First_C" type="b2602c69:ProjectViewProjectNode" />
               <item name="Head-First-C" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Head_First_C" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Head-First-C" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter2.5_String_Theory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,8 +159,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.Head_First_C" />
       <item itemvalue="CMake Application.Head_First_C1" />
+      <item itemvalue="CMake Application.Head_First_C" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -173,12 +177,15 @@
       <workItem from="1558620996716" duration="7000" />
       <workItem from="1558760763451" duration="1700000" />
       <workItem from="1558773302678" duration="3309000" />
-      <workItem from="1558781647112" duration="22506000" />
+      <workItem from="1558781647112" duration="25859000" />
+      <workItem from="1560165905134" duration="11000" />
+      <workItem from="1560165943670" duration="2332000" />
+      <workItem from="1560271367674" duration="6556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45858000" />
+    <option name="totallyTimeSpent" value="58110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,22 +197,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="586" y="23" width="803" height="670" extended-state="0" />
+    <frame x="668" y="68" width="733" height="690" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03942181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12011577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29254302" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.35986158" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30936456" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35986158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3288719" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3250478" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.17208412" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32107022" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30267558" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32967034" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3288719" />
@@ -239,30 +246,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter3_Small_Tools/gpsdata.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/output.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/secrets/message4.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/secrets/message3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter3_Small_Tools/gpsdata.csv" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/output.json" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/secrets/message4.txt" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/secrets/message3.txt" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/secrets/message1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -320,27 +307,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/Chapter5_Structures/structure.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="230">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6_Building_Bridges/bridge.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5_Structures/structure.h">
+    <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="286">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
