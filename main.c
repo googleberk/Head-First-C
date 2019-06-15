@@ -6,6 +6,9 @@
 #include "break.h"
 #include "structure.h"
 #include "bridge.h"
+#include "advance.h"
+
+
 
 
 int main(int argc, char *argv[]) {
@@ -119,7 +122,26 @@ int main(int argc, char *argv[]) {
 //    displayA(p_island1);
 
     // below are calls for Chapter7:
-
+    int NUM_ADS = 7;
+    char *ADS[] = {
+            "William: SBM GSOH likes sports, TV, dining",
+            "Matt: SWM NS likes art, movies, theater",
+            "Luis: SLM ND likes books, theater, art",
+            "Mike: DWM DS likes trucks, sports and bieber",
+            "Peter: SAM likes chess, working out and art",
+            "Josh: SJM likes sports, movies and theater",
+            "Jed: DBM likes theater, books and dining"
+    };
+    // find(ADS, NUM_ADS);
+//    findA1(sports_no_bieber, ADS, NUM_ADS);
+//    findA1(sports_or_workout, ADS, NUM_ADS);
+//    findA1(ns_theater, ADS, NUM_ADS);
+//    findA1(arts_theater_or_dining, ADS, NUM_ADS);
+    //qsortExample();
+    //list_response();
+    //list_responseA1();
+    // print_ints(3, 12, 23, 45);
+    printf("Price is %.2f\n", total(3, MONKEY_GLAND, MUDSLIDE, FUZZY_NAVEL));
 
     return 0;
 

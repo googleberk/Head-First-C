@@ -46,6 +46,12 @@ stdlib.h
 string.h
 ../Chapter6_Building_Bridges/string.h
 
+../Chapter7_Advanced_Functions/advance.h
+stdio.h
+../Chapter7_Advanced_Functions/stdio.h
+stdarg.h
+../Chapter7_Advanced_Functions/stdarg.h
+
 /Users/smallapple/CLionProjects/Head-First-C/main.c
 stdio.h
 -
@@ -63,4 +69,6 @@ structure.h
 /Users/smallapple/CLionProjects/Head-First-C/structure.h
 bridge.h
 /Users/smallapple/CLionProjects/Head-First-C/bridge.h
+advance.h
+/Users/smallapple/CLionProjects/Head-First-C/advance.h
 
