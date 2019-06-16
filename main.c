@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "string.h"
-#include "pointer1.h"
-#include "string1.h"
-#include "tool.h"
-#include "break.h"
-#include "structure.h"
-#include "bridge.h"
-#include "advance.h"
+// #include "pointer1.h"
+// #include "string1.h"
+//#include "tool.h"
+//#include "break.h"
+//#include "structure.h"
+//#include "bridge.h"
+//#include "advance.h"
+#include "libraries.h"
 
 
 
@@ -141,7 +142,11 @@ int main(int argc, char *argv[]) {
     //list_response();
     //list_responseA1();
     // print_ints(3, 12, 23, 45);
-    printf("Price is %.2f\n", total(3, MONKEY_GLAND, MUDSLIDE, FUZZY_NAVEL));
+    // printf("Price is %.2f\n", total(3, MONKEY_GLAND, MUDSLIDE, FUZZY_NAVEL));
+
+
+    // calls for Chapter 8
+    encrycheck();
 
     return 0;
 

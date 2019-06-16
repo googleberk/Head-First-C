@@ -17,6 +17,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Chapter5_Structures"
   "../Chapter6_Building_Bridges"
   "../Chapter7_Advanced_Functions"
+  "../Chapter8_Static_And_Dynamic_Libraries"
   )
 
 # Targets to which this target links.

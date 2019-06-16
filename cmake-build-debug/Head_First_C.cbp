@@ -51,6 +51,7 @@
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter5_Structures"/>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter6_Building_Bridges"/>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter7_Advanced_Functions"/>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter8_Static_And_Dynamic_Libraries"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -78,6 +79,7 @@
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter5_Structures"/>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter6_Building_Bridges"/>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter7_Advanced_Functions"/>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter8_Static_And_Dynamic_Libraries"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -105,6 +107,7 @@
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter5_Structures"/>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter6_Building_Bridges"/>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter7_Advanced_Functions"/>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter8_Static_And_Dynamic_Libraries"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -132,6 +135,7 @@
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter5_Structures"/>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter6_Building_Bridges"/>
 					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter7_Advanced_Functions"/>
+					<Add directory="/Users/smallapple/CLionProjects/Head-First-C/Chapter8_Static_And_Dynamic_Libraries"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>

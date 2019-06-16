@@ -12,4 +12,5 @@ include_directories(Chapter4_Break_Build)
 include_directories(Chapter5_Structures)
 include_directories(Chapter6_Building_Bridges)
 include_directories(Chapter7_Advanced_Functions)
+include_directories(Chapter8_Static_And_Dynamic_Libraries)
 
